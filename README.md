@@ -1,10 +1,11 @@
 # Supra SDK Starkey Dapp
-Welcome to the Supra SDK's To-Do List Dapp! This project demonstrates how to integrate the Supra SDK and StarKey wallet into a simple to-do list application built with React and TypeScript.
+This project demonstrates how to integrate the Supra SDK and StarKey wallet into a simple to-do list application built with React and TypeScript.
 
 ## Introduction
 This project is a dapp that allows users to add and manage tasks. The tasks are sent to a backend server using the Supra SDK, which interacts with the Supra blockchain. Users can connect their StarKey wallet to the dapp to interact with the application securely.
 
 ## Setup and Installation
+
 ### Prerequisites
 Node.js and npm installed on your system
 
@@ -12,7 +13,7 @@ Node.js and npm installed on your system
 - Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/JatinSupra/supra-sdk-dapp.git
 cd supra-sdk-dapp
 ```
 
