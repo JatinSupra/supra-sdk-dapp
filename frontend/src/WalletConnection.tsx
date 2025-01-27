@@ -1,4 +1,5 @@
 // src/WalletConnection.tsx
+// This is the file that will be used to connect to the Starkey Wallet., the official wallet on Supra, you can check Starkey.app for docs.
 import React, { useState, useEffect } from 'react';
 import { connectWallet } from './wallet';
 

@@ -1,4 +1,5 @@
 // frontend/src/reportWebVitals.ts
+// just use this as it as it is, this can be a pain to debug if you don't know what you're doing.
 import { ReportHandler } from 'web-vitals';
 
 const reportWebVitals = (onPerfEntry?: ReportHandler) => {

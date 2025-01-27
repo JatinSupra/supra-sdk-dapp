@@ -1,4 +1,5 @@
 // src/TodoList.tsx
+// after all the hastle this is the main chracter of the show, this is the file that will be used to create the to-do list.
 import React, { useState } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import './TodoList.css';
@@ -22,7 +23,7 @@ const TodoList: React.FC<TodoListProps> = ({ account }) => {
     setTodos([...todos, newTask]);
     setNewTodo('');
 
-    // Send the task to the backend
+    // Send the task to the backend to be saved, you can open the src/index.ts file to see the backend code and how are thing going there!
     const response = await fetch('http://localhost:3000/add-task', {
       method: 'POST',
       headers: {

@@ -1,4 +1,5 @@
 // src/index.tsx
+// lets make the following changes to the import statement to make the react compotent live in Index.
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
