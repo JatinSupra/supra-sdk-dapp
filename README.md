@@ -1,5 +1,5 @@
 # Supra SDK Starkey Dapp
-This project demonstrates how to integrate the Supra SDK and StarKey wallet into a simple to-do list application built with React and TypeScript.
+This Project Demonstrates How to Integrate the Supra SDK and StarKey wallet into a Simple to-do list application built with React and TypeScript.
 
 ## Introduction
 This project is a dapp that allows users to add and manage tasks. The tasks are sent to a backend server using the Supra SDK, which interacts with the Supra blockchain. Users can connect their StarKey wallet to the dapp to interact with the application securely.
@@ -30,7 +30,32 @@ npm install
 cd ..
 npm install
 ```
- 
+
+### Running the Backend:
+
+```bash
+npx ts-node --project tsconfig.json src/index.ts
+```
+
+**Example output:**
+
+<img width="720px" alt="Awesome DeepSeek Integrations" src="./frontend/src/assets/bnd.png">
+
+
+### Running the Frontend:
+
+```bash
+cd frontend
+npm start
+```
+
+**Example output:**
+
+<img width="480px" alt="Awesome DeepSeek Integrations" src="./frontend/src/assets/fnd.png">
+
+### Access the DApp:
+Open your browser and navigate to `http://localhost:3001`
+
 ## Using Supra SDK
 The Supra SDK is used in this project to interact with the Supra blockchain. It allows the backend server to initialize a Supra client and handle transactions.
 
@@ -66,26 +91,5 @@ The component responsible for connecting the user's StarKey wallet and setting t
 `index.ts`
 The backend server entry point. It initializes the Supra client and defines API endpoints for interacting with the Supra blockchain.
 
-## Getting Started
-
-### Running the Backend:
-
-```bash
-npx ts-node --project tsconfig.json src/index.ts
-```
-**Example output:**
-
-<img width="720px" alt="Awesome DeepSeek Integrations" src="./frontend/src/assets/bnd.png">
-
-### Running the Frontend:
-
-```bash
-cd frontend
-npm start
-```
-**Example output:**
-
-<img width="480px" alt="Awesome DeepSeek Integrations" src="./frontend/src/assets/fnd.png">
-
-### Access the DApp:
-Open your browser and navigate to `http://localhost:3001`
+## Contributing
+Feel free to open issues and submit pull requests for improvements and new features.
