@@ -73,6 +73,9 @@ The backend server entry point. It initializes the Supra client and defines API 
 ```bash
 npx ts-node --project tsconfig.json src/index.ts
 ```
+**Example output:**
+
+<img width="720px" alt="Awesome DeepSeek Integrations" src="./frontend/src/assets/bnd.png">
 
 ### Running the Frontend:
 
@@ -80,6 +83,9 @@ npx ts-node --project tsconfig.json src/index.ts
 cd frontend
 npm start
 ```
+**Example output:**
+
+<img width="480px" alt="Awesome DeepSeek Integrations" src="./frontend/src/assets/fnd.png">
 
 ### Access the DApp:
 Open your browser and navigate to `http://localhost:3001`
